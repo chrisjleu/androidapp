@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Compose message, should appear as action button -->
+    <item android:id="@+id/action_compose"
+        android:icon="@drawable/ic_menu_compose"
+        android:title="@string/action_compose"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+
+</menu>

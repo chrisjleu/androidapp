@@ -1,0 +1,33 @@
+/local.properties
+.DS_Store
+/build
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Windows thumbnail db
+Thumbs.db
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+# Comment the first one out to be a bit more fine-grained
+.idea
+**/.idea/libraries
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+.gradle
+build/
